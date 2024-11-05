@@ -6,8 +6,6 @@ import App from './App.vue';
 const router = createRouter({
     history: createWebHashHistory(),
     routes: [
-        { path: '/', component: () => import('./Home.vue') },
-        { path: '/about', component: () => import('./About.vue') },
     ],
 });
 
